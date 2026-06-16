@@ -1,6 +1,6 @@
 {
   "name": "razorpay",
-  "version": "2.9.6",
+  "version": "2.9.6-lineaje-01",
   "description": "Official Node SDK for Razorpay API",
   "main": "dist/razorpay",
   "typings": "dist/razorpay",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/razorpay/razorpay-node.git"
+    "url": "https://github.com/lineaje-labs-gos/razorpay-razorpay-node"
   },
   "keywords": [
     "razorpay",
@@ -34,6 +34,12 @@
     "full-trace": true
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "devDependencies": {
     "@types/node": "^20.12.12",
     "babel-cli": "^6.26.0",
