@@ -1,13 +1,13 @@
 {
   "name": "razorpay",
-  "version": "2.8.6",
+  "version": "2.8.6-lineaje-01",
   "description": "Official Node SDK for Razorpay API",
   "main": "dist/razorpay",
   "typings": "dist/razorpay",
   "scripts": {
     "prepublish": "npm test",
     "clean": "rm -rf dist && mkdir dist",
-    "cp-types":"mkdir dist/types && cp lib/types/* dist/types && cp lib/utils/*d.ts dist/utils",
+    "cp-types": "mkdir dist/types && cp lib/types/* dist/types && cp lib/utils/*d.ts dist/utils",
     "cp-ts": "cp lib/razorpay.d.ts dist/ && npm run cp-types",
     "build:commonjs": "babel lib -d dist",
     "build": "npm run clean && npm run build:commonjs && npm run cp-ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/razorpay/razorpay-node.git"
+    "url": "https://github.com/lineaje-labs-gos/razorpay-razorpay-node"
   },
   "keywords": [
     "razorpay",
@@ -34,6 +34,12 @@
     "full-trace": true
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
